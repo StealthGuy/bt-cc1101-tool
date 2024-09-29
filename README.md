@@ -1,6 +1,10 @@
 # bt-cc1101-tool
-Adding Bluetooth to the cc1101 tool project.
-ONLY FOR ESP32
+Adding Bluetooth to the cc1101 tool project. **ONLY FOR ESP32**
+
+- Download and upload _esp32-cc1101-bluetooth.ino_, ignore all the other files, they are from the original repo.
+- Download _Serial Bluetooth Terminal_ from the Play Store
+- Follow the instructions of the original project, the only difference is that you can use bluetooth instead of USB cable.
+
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
 RF tool based on CC1101 module and Arduino Pro Micro 8VMHz/3.3V. Allows using CLI to control CC1101 board over USB interface. Putty or any other serial terminal can be used. It has similar functionality to YardStick One but is cheaper and does not need specialized software. Allows for RF jamming and replay attacks as well. It has RAW  recording/replaying function which works exactly the same as in the Flipper Zero. Additional function is Radio Chat communicator
